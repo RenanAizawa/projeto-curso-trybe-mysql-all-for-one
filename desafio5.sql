@@ -1,2 +1,1 @@
-select * from northwind.products
-where id between 3 and 14;
+SELECT * FROM northwind.products LIMIT 10 OFFSET 3;
